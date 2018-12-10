@@ -21,7 +21,7 @@ public class DemoController {
 	public ResponseEntity<String> data()
 	{
 		int i=1;
-		if (i==2)
+		if (i==3)
 		{
 			return new ResponseEntity<>("data 1",HttpStatus.BAD_REQUEST);
 		}
